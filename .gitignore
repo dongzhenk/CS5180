@@ -29,14 +29,14 @@ results_quick/
 results_test/
 
 # ───────── Paper build artifacts ─────────
-paper/authorkit/
-paper/_inspect_mini_chess_paper/
-paper/*.aux
-paper/*.log
-paper/*.out
-paper/*.bbl
-paper/*.blg
+authorkit/
+_inspect_mini_chess_paper/
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
 
 # ───────── Poster scratch ─────────
-poster/_chessboard.png
+_chessboard.png
 .claude/
