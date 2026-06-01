@@ -1,0 +1,37 @@
+======================================================================
+QUANTITATIVE SUMMARY
+======================================================================
+
+--- DQN (2 seeds) ---
+  Seed 0: 20000 eps  W=16.5%  L=13.2%  D=70.3%
+  Seed 1: 20000 eps  W=15.2%  L=14.3%  D=70.5%
+  Last 2000 win rate: 14.4% +/- 1.4%
+  Last 500 win rate: 15.0% +/- 1.4%
+  Avg Q-value (last 20%): 1.8913
+  Avg Q-value (last 20%): 1.8905
+  Avg game length (last 20%): 52.5 moves
+  Avg game length (last 20%): 51.8 moves
+  vs Random: W=13%+/-3%  L=7%+/-0%  D=80%+/-3%
+  vs Heuristic: W=0%+/-0%  L=27%+/-7%  D=73%+/-7%
+  Final loss (last 20%): 0.003070
+  Final loss (last 20%): 0.003212
+
+--- DDQN (2 seeds) ---
+  Seed 0: 20000 eps  W=15.8%  L=15.3%  D=68.9%
+  Seed 1: 20000 eps  W=14.5%  L=15.7%  D=69.8%
+  Last 2000 win rate: 15.4% +/- 0.8%
+  Last 500 win rate: 14.0% +/- 0.4%
+  Avg Q-value (last 20%): 1.8489
+  Avg Q-value (last 20%): 1.8325
+  Avg game length (last 20%): 47.3 moves
+  Avg game length (last 20%): 46.9 moves
+  vs Random: W=18%+/-2%  L=12%+/-2%  D=70%+/-3%
+  vs Heuristic: W=5%+/-5%  L=27%+/-3%  D=68%+/-8%
+  Final loss (last 20%): 0.003247
+  Final loss (last 20%): 0.003351
+
+--- MCTS ---
+  vs Random: W=93%  L=0%  D=7%
+  vs Heuristic: W=63%  L=3%  D=33%
+
+======================================================================
